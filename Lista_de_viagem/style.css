@@ -1,0 +1,104 @@
+/*inicio imagem*/
+
+.img {
+    width: 100%;
+    background-image: url(Img/viajar-pelo-mundo.jpg);
+    height: 200px;
+    background-position: center center;
+
+}
+
+/*final imagem*/
+
+/*inicio principal*/
+h1 {
+    position: fixed;
+    font-size: 24px;
+    padding: 6px;
+    text-shadow: 1px 1px 1px #f1efef;
+    width: 100%;
+    text-align: center;
+}
+
+body {
+    margin: auto;
+    background: linear-gradient(#fefefe, #fefefe, #98c6ec);
+    height: 100vh;
+}
+
+.lista {
+    width: auto;
+    background: transparent;
+}
+
+label {
+    padding-left: 15px;
+}
+.principal{
+    padding: 10px;
+}
+.letra {
+    font-size: 25px;
+
+}
+button{
+    font-size: 20px;
+}
+/*final principal*/
+
+/*Responsivo*/
+
+/* tablets 768px */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 40px;
+        
+    }
+
+    .lista {
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    body {
+        width: auto;
+    }
+
+    .img {
+    
+        height: 300px;       
+    
+    }
+
+}
+
+/* desktops 1024px*/
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 55px;
+        position: absolute
+    }
+
+    .lista {
+        font-size: 27px;
+    }
+
+    label {
+        font-size: 27px;
+    }
+
+    .cadastrar {
+        font-size: 27px;
+
+    }
+    .img {
+    
+        height: 400px;       
+    
+    }
+
+
+}
